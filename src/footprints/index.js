@@ -20,4 +20,7 @@ module.exports = {
     via: require('./via'),
     mountinghole: require('./mountinghole'),
     tentingpuck: require('./tentingpuck'),
+    cirque: require('./cirque'),
+    pinheaders: require('./pinheaders'),
+    trackpad_hole: require('./trackpad_hole')
 }
