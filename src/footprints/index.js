@@ -12,6 +12,7 @@ module.exports = {
     pad: require('./pad'),
     promicro: require('./promicro'),
     elite: require('./elite'),
+    helios: require('./helios'),
     rgb: require('./rgb'),
     rotary: require('./rotary'),
     scrollwheel: require('./scrollwheel'),
