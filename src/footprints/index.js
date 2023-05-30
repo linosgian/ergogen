@@ -22,6 +22,8 @@ module.exports = {
     mountinghole: require('./mountinghole'),
     tentingpuck: require('./tentingpuck'),
     cirque: require('./cirque'),
+    azoteq_tps43: require('./azoteq_tps43'),
     pinheaders: require('./pinheaders'),
-    trackpad_hole: require('./trackpad_hole')
+    trackpad_hole: require('./trackpad_hole'),
+    smd_resistor: require('./smd_resistor'),
 }
