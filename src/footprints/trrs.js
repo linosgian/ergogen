@@ -61,6 +61,11 @@ module.exports = {
       (fp_line (start 0.75 0) (end 0.75 12.1) (layer Dwgs.User) (width 0.15))
       (fp_line (start 0.75 12.1) (end -5.35 12.1) (layer Dwgs.User) (width 0.15))
       (fp_line (start 0.75 0) (end -5.35 0) (layer Dwgs.User) (width 0.15))
+      (model \${KIPRJMOD}/../3d/PJ-320A-dual.step
+        (at (xyz -0.1 0 0))
+        (scale (xyz 1 1 1))
+        (rotate (xyz -90 0 -180))
+      )
 
       `
     function stabilizers(def_pos) {

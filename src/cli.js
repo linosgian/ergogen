@@ -187,6 +187,17 @@ for (const [name, pcb] of Object.entries(results.pcbs)) {
     single(pcb, `pcbs/${name}.kicad_pcb`)
 }
 
+const dest = path.join(args.o, `3d/`)
+fs.mkdirpSync(dest)
+const src = path.join(__dirname, `3d/`)
+fs.copy(src, dest, function (err) {
+    if (err){
+        console.log('An error occured while copying the folder.')
+        return console.error(err)
+    }
+    console.log('Copy completed!')
+});
+
 // goodbye
 
 console.log('Done.')
